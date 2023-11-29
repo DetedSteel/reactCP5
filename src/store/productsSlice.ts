@@ -25,8 +25,9 @@ const productsSlice = createSlice({
       state.products.forEach(e => {
         if (e.id === action.payload.id) {
           e.count += action.payload.count;
-          if (e.count >= 25) {
+          if (e.count > 25) {
             e.count = 25;
+            alert('Нельзя больше 25!')
           }
           if (e.count < 1) {
             e.count = 0;
