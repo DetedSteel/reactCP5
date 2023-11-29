@@ -1,0 +1,1 @@
+.products{display:flex;flex-direction:column;gap:20px;justify-content:center;align-items:center;height:100vh}.product{display:flex;gap:5px;align-items:center}.button{border:none;background-color:bisque;color:brown;border-radius:7px;padding:10px 15px;display:flex;align-items:center;justify-content:center}
